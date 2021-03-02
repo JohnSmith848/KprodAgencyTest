@@ -23,8 +23,15 @@ form>*{
 	font-size:inherit;
 	line-height:inherit;
 }
+*>button{
+	color:inherit;
+	font:inherit;
+	font-size:inherit;
+	line-height:inherit;
+}
 .body{
-	font-family: 'Stolzl', sans-serif;
+	font-family: 'Raleway', sans-serif;
+	font-weight:600;
 	font-style: normal;
 	color:#FFF;
 }

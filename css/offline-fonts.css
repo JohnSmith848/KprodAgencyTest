@@ -1,125 +1,66 @@
 @font-face {
-    font-family: 'Stolzl';
-    src: url('../fonts/Stolzl-Thin.eot');
-    src: local('Stolzl Thin'), local('Stolzl-Thin'),
-        url('../fonts/Stolzl-Thin.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Stolzl-Thin.woff2') format('woff2'),
-        url('../fonts/Stolzl-Thin.woff') format('woff'),
-        url('../fonts/Stolzl-Thin.ttf') format('truetype');
-    font-weight: 100;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Stolzl';
-    src: url('../fonts/Stolzl-Light.eot');
-    src: local('Stolzl Light'), local('Stolzl-Light'),
-        url('../fonts/Stolzl-Light.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Stolzl-Light.woff2') format('woff2'),
-        url('../fonts/Stolzl-Light.woff') format('woff'),
-        url('../fonts/Stolzl-Light.ttf') format('truetype');
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-Light.eot');
+    src: local('Raleway Light'), local('Raleway-Light'),
+        url('../fonts/Raleway-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Raleway-Light.woff2') format('woff2'),
+        url('../fonts/Raleway-Light.woff') format('woff'),
+        url('../fonts/Raleway-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
 }
 @font-face {
-    font-family: 'Stolzl Book';
-    src: url('../fonts/Stolzl-Book.eot');
-    src: local('Stolzl Book'), local('Stolzl-Book'),
-        url('../fonts/Stolzl-Book.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Stolzl-Book.woff2') format('woff2'),
-        url('../fonts/Stolzl-Book.woff') format('woff'),
-        url('../fonts/Stolzl-Book.ttf') format('truetype');
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-Regular.eot');
+    src: local('Raleway'), local('Raleway-Regular'),
+        url('../fonts/Raleway-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Raleway-Regular.woff2') format('woff2'),
+        url('../fonts/Raleway-Regular.woff') format('woff'),
+        url('../fonts/Raleway-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
-    font-family: 'Stolzl';
-    src: url('../fonts/Stolzl-Regular.eot');
-    src: local('Stolzl Regular'), local('Stolzl-Regular'),
-        url('../fonts/Stolzl-Regular.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Stolzl-Regular.woff2') format('woff2'),
-        url('../fonts/Stolzl-Regular.woff') format('woff'),
-        url('../fonts/Stolzl-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Stolzl';
-    src: url('../fonts/Stolzl-Medium.eot');
-    src: local('Stolzl Medium'), local('Stolzl-Medium'),
-        url('../fonts/Stolzl-Medium.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Stolzl-Medium.woff2') format('woff2'),
-        url('../fonts/Stolzl-Medium.woff') format('woff'),
-        url('../fonts/Stolzl-Medium.ttf') format('truetype');
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-Medium.eot');
+    src: local('Raleway Medium'), local('Raleway-Medium'),
+        url('../fonts/Raleway-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Raleway-Medium.woff2') format('woff2'),
+        url('../fonts/Raleway-Medium.woff') format('woff'),
+        url('../fonts/Raleway-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
 }
 @font-face {
-    font-family: 'Stolzl';
-    src: url('../fonts/Stolzl-Bold.eot');
-    src: local('Stolzl Bold'), local('Stolzl-Bold'),
-        url('../fonts/Stolzl-Bold.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/Stolzl-Bold.woff2') format('woff2'),
-        url('../fonts/Stolzl-Bold.woff') format('woff'),
-        url('../fonts/Stolzl-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}
-
-
-@font-face {
-    font-family: 'Gotham Pro';
-    src: url('../fonts/GothamPro-Light.eot');
-    src: local('Gotham Pro Light'), local('GothamPro-Light'),
-        url('../fonts/GothamPro-Light.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/GothamPro-Light.woff2') format('woff2'),
-        url('../fonts/GothamPro-Light.woff') format('woff'),
-        url('../fonts/GothamPro-Light.ttf') format('truetype');
-    font-weight: 300;
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-SemiBold.eot');
+    src: local('Raleway SemiBold'), local('Raleway-SemiBold'),
+        url('../fonts/Raleway-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Raleway-SemiBold.woff2') format('woff2'),
+        url('../fonts/Raleway-SemiBold.woff') format('woff'),
+        url('../fonts/Raleway-SemiBold.ttf') format('truetype');
+    font-weight: 600;
     font-style: normal;
 }
 @font-face {
-    font-family: 'Gotham Pro';
-    src: url('../fonts/GothamPro.eot');
-    src: local('Gotham Pro'), local('GothamPro'),
-        url('../fonts/GothamPro.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/GothamPro.woff2') format('woff2'),
-        url('../fonts/GothamPro.woff') format('woff'),
-        url('../fonts/GothamPro.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Gotham Pro';
-    src: url('../fonts/GothamPro-Medium.eot');
-    src: local('Gotham Pro Medium'), local('GothamPro-Medium'),
-        url('../fonts/GothamPro-Medium.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/GothamPro-Medium.woff2') format('woff2'),
-        url('../fonts/GothamPro-Medium.woff') format('woff'),
-        url('../fonts/GothamPro-Medium.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Gotham Pro';
-    src: url('../fonts/GothamPro-Bold.eot');
-    src: local('Gotham Pro Bold'), local('GothamPro-Bold'),
-        url('../fonts/GothamPro-Bold.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/GothamPro-Bold.woff2') format('woff2'),
-        url('../fonts/GothamPro-Bold.woff') format('woff'),
-        url('../fonts/GothamPro-Bold.ttf') format('truetype');
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-Bold.eot');
+    src: local('Raleway Bold'), local('Raleway-Bold'),
+        url('../fonts/Raleway-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Raleway-Bold.woff2') format('woff2'),
+        url('../fonts/Raleway-Bold.woff') format('woff'),
+        url('../fonts/Raleway-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
 @font-face {
-    font-family: 'Gotham Pro';
-    src: url('../fonts/GothamPro-Black.eot');
-    src: local('Gotham Pro Black'), local('GothamPro-Black'),
-        url('../fonts/GothamPro-Black.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/GothamPro-Black.woff2') format('woff2'),
-        url('../fonts/GothamPro-Black.woff') format('woff'),
-        url('../fonts/GothamPro-Black.ttf') format('truetype');
-    font-weight: 900;
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway-ExtraBold.eot');
+    src: local('Raleway ExtraBold'), local('Raleway-ExtraBold'),
+        url('../fonts/Raleway-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Raleway-ExtraBold.woff2') format('woff2'),
+        url('../fonts/Raleway-ExtraBold.woff') format('woff'),
+        url('../fonts/Raleway-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
     font-style: normal;
 }
-

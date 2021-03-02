@@ -15,6 +15,10 @@
 						no-repeat,
 						no-repeat,
 						no-repeat;
+/*	background-size:	1838px 983px,
+						1920px 787px,
+						contain,
+						110px 108px;*/
 }
 .main{
 
@@ -36,7 +40,7 @@
 	padding-top:227px;
 }
 .main__header{
-	font-weight:normal;
+	font-weight:600;
 	font-size:48px;
 	line-height:150%;
 	margin:0;
@@ -100,7 +104,7 @@
 	top:-82px;
 	left:-65px;
 	width:527px;
-	height:680px;
+	height:681px;
 	background-image:url("../img/girl.svg");
 
 }
@@ -178,7 +182,7 @@
 		top:-50px;
 		left:-43px;
 		width:348px;
-		height:449px;
+		height:450px;
 		background-size:348px 449px;
 	}
 	.main__graphic-content:after{
@@ -210,13 +214,14 @@
 }
 
 @media(max-width:990px){
-.main__title-screen{
-	flex-direction:column-reverse;
-	align-items:center;
-}
+	.main__title-screen{
+		flex-direction:column-reverse;
+		align-items:center;
+	}
 /*text-content style*/
 	.main__text-content{
 		padding-top:25px;
+		min-width:345px;
 		flex-basis:350px;
 	}
 
@@ -227,4 +232,57 @@
 		flex-basis:399px;
 	}
 
+}
+
+@media(max-width:540px){
+	.main__title-screen{
+	}
+/*text-content style*/
+	.main__text-content{
+		flex-basis:280px;
+	}
+	.main__header{
+		font-size:32px;
+	}
+	.main__subheader{
+		font-size:32px;
+	}
+	.main__text-content p{
+		font-size:14px;
+/*		margin-bottom:36px;*/
+	}
+	.main__text-content div{
+	}
+	.main__execute-my-wish-btn,
+	.main__phone-btn{
+		font-size:14px;
+		height:40px;
+	}
+
+/*graphic-content style*/
+	.main__graphic-content{
+		margin:50px 0px 140px 0px;
+	}
+	.main__lightbox_left-top{
+		top:auto;
+		bottom:-150px;
+		left:-40px;
+		width:105px;
+		height:158px;
+	}
+	.main__lightbox_right{
+		top:auto;
+		bottom:-150px;
+		right:-43px;
+		width:105px;
+		height:158px;
+	}
+	.main__lightbox_right-bottom{
+		bottom:-150px;
+		right:57px;
+		width:180px;
+		height:178px;	
+	}
+}
+@media(max-width:375px){
 }
